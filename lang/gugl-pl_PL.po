@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gugl\n"
+"POT-Creation-Date: 2013-06-09 15:28+0100\n"
+"PO-Revision-Date: 2013-06-09 15:29+0100\n"
+"Last-Translator: Kuba Mikita <jacubmikita@gmail.com>\n"
+"Language-Team: Kuba Mikita <jacubmikita@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../inc\n"
+
+#: ../gugl.php:26
+msgid "Gugl Options"
+msgstr "Opcje Gugl"
+
+#: ../gugl.php:75
+msgid "Text before phrase"
+msgstr "Tekst wyświetlający się przed frazą"
+
+#: ../gugl.php:76
+msgid "Destination page"
+msgstr "Strona docelowa"
+
+#: ../gugl.php:77
+msgid "Title for the link"
+msgstr "Tytuł linka"
+
+#: ../gugl.php:78
+msgid "Open link in new window?"
+msgstr "Otwierać link w nowym oknie?"
+
+#: ../gugl.php:81
+msgid "Color Scheme for the button"
+msgstr "Schemat kolorów przycisku"
+
+#: ../gugl.php:82
+msgid "Define own Color Scheme"
+msgstr "Zdefiniuj własny schemat kolorów"
+
+#: ../gugl.php:85
+msgid "Reset Statistics"
+msgstr "Zresetuj statystyki"
+
+#: ../gugl.php:86
+msgid "Send your Statistics to Author"
+msgstr "Wyślij statystyki"
+
+#: ../gugl.php:87
+msgid "Test mode for Administrator"
+msgstr "Tryb testowy dla administratora"
+
+#: ../gugl.php:94
+msgid "General Settings"
+msgstr "Ustawienia Gugl"
+
+#: ../gugl.php:98
+msgid "Color Settings"
+msgstr "Ustawienia koloru"
+
+#: ../gugl.php:102
+msgid "Maintenance"
+msgstr "Konserwacja"
+
+#: ../gugl.php:110
+msgid "If you don't want to display anything just leave it blank"
+msgstr ""
+"Jeśli nie chcesz, żeby cokolwiek było wyświetlane przed frazą pozostaw to "
+"pole puste"
+
+#: ../gugl.php:116
+msgid "Eg. http://google.com/ or internal link: /langing-page"
+msgstr "Np. http://google.pl/ lub link wewnętrzny /strona-docelowa"
+
+#: ../gugl.php:122
+msgid "This is for SEO"
+msgstr "Dla SEO"
+
+#: ../gugl.php:137
+msgid "Dynamically changes only text before phrase and color"
+msgstr "Dynamicznie zmienia się tylko tekst i kolor"
+
+#: ../gugl.php:138 ../inc/shortcode.php:23
+msgid "[phrase]"
+msgstr "[fraza]"
+
+#: ../gugl.php:140
+msgid "Button Preview"
+msgstr "Podgląd"
+
+#: ../gugl.php:148 ../gugl.php:157 ../gugl.php:167 ../gugl.php:176
+#: ../gugl.php:185
+msgid "Enable"
+msgstr "Włącz"
+
+#: ../gugl.php:149
+msgid "If checked, link will pop up in new tab"
+msgstr ""
+"Jeśli pole będzie zaznaczone, link będzie otwierał się w nowej zakładce"
+
+#: ../gugl.php:158
+msgid "Check, if you want to use additional Class for your Color Scheme"
+msgstr "Zaznacz jeśli chcesz dodać \"czystą\" klasę"
+
+#: ../gugl.php:159
+msgid ""
+"Now you can use in your CSS file Class: <code>.gugl_button_Custom</code>"
+msgstr ""
+"Teraz możesz użyć w swoim pliku CSS klasy: <code>.gugl_button_Custom</code>"
+
+#: ../gugl.php:168
+msgid "Check if you want to reset clicks and views counters"
+msgstr "Zaznacz jeśli chcesz zresetować liczniki wyświetleń i kliknięć"
+
+#: ../gugl.php:177
+msgid ""
+"If checked, an e-mail will be send containing website adress, number of "
+"views, hits and CTR rate. This will help me with plugin improvement"
+msgstr ""
+"Jeśli pole będzie zaznaczone, zostanie wysłany e-mail zawierający adres "
+"Twojej strony i liczbę wyświetleń, kliknięć oraz CTR. Pomoże mi to w "
+"ulepszeniu wtyczki. Dzięki!"
+
+#: ../gugl.php:186
+msgid ""
+"If checked, button will be visible only for Administrator without any search "
+"guery from Google. This will affect on all used shortcodes"
+msgstr ""
+"Jeśli pole będzie zaznaczone, przycisk będzie widoczny tylko dla "
+"administratora, z wyświetlaną przykładową frazą. Opcja ma wpływ na wszystkie "
+"shortcody na stronie"
+
+#: ../gugl.php:208
+msgid "Donate"
+msgstr "Wesprzyj"
+
+#: ../gugl.php:209
+msgid "Translate"
+msgstr "Przetłumacz"
+
+#: ../gugl.php:221 ../inc/options.php:14
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: ../inc/options.php:6
+msgid "Gugl Settings"
+msgstr "Ustawienia Gugl"
+
+#: ../inc/options.php:24
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: ../inc/options.php:34
+msgid "Usage"
+msgstr "Używanie"
+
+#: ../inc/options.php:37
+msgid ""
+"Shortcode will use default values you specified in Default Settings Section. "
+"If you want override those settings just enter optional attributes in "
+"shortcode.<br /><code>[gugl before=\"text shown before query phrase\" link="
+"\"url to your destination page\" title=\"title of this anchor\" color=\"One "
+"of color scheme\"]</code>"
+msgstr ""
+"Shortcode będzie używał ustawień, które zdefiniowane są w sekcji Domyślne "
+"ustawienia dla shortcode. Jeśli chcesz nadpisać te ustawienia wystarczy, że "
+"zdefiniujesz opcjonalne atrybutu przy wywyływaniu shortcode.<br /><strong>"
+"[gugl before=\"text pokazywany przed frazą\" link=\"link do strony docelowej"
+"\" title=\"tytuł dla linku\" color=\"Schemat kolorów (Grey, Green, Blue, "
+"Red, Orange, White, Purple, Pink)\"]</strong>"
+
+#: ../inc/options.php:40
+msgid ""
+"Example 1: If you want to ovveride just link url and title, shortcode will "
+"look like:<br /><code>[gugl link=\"http://new-adress.com/\" title=\"New title"
+"\"]</code>"
+msgstr ""
+"Przykład 1: Jeśli chcesz nadpisać tylko adres strony docelowej i tytuł dla "
+"linka, shortcode będzie wyglądał tak:<br /><strong>[gugl link=\"http://nowy-"
+"adres.pl/\" title=\"Nowy tytuł\"]</strong>"
+
+#: ../inc/options.php:44
+msgid "Example 2: If you want to show button with your defaul settings:"
+msgstr ""
+"Przykład 2: Jeśli chcesz, żeby shortcode wyświetlał się z ustawieniami, "
+"które podałeś w sekcji domyślne ustawienia:"
+
+#: ../inc/options.php:51
+#, php-format
+msgid ""
+"If you wan't to put button to your theme file, you can just execute "
+"shortcode in PHP tags like this:<br />%s. "
+msgstr ""
+"Jeśli chcesz umieścić przycisk w kodzie swojego motywu wystarczy, że "
+"wywołasz shortcode między tagami PHP:<br/>%s"
+
+#: ../inc/options.php:53
+msgid "Of course in that case you can also use attributes."
+msgstr "W tym przypadku również możesz wykorzystać atrybuty."
+
+#: ../inc/options.php:56
+msgid ""
+"See the <a href=\"http://codex.wordpress.org/Function_Reference/do_shortcode"
+"\" title=\"Function do_shortcode\">WordPress Function Reference</a> for more "
+"information."
+msgstr ""
+"Zobacz <a href=\"http://codex.wordpress.org/Function_Reference/do_shortcode"
+"\" title=\"Opis do_shortcode\">opis funkcji WordPress</a>, żeby uzyskać "
+"więcej informacji.</p>"
+
+#: ../inc/options.php:71
+msgid "Give me some sunshine"
+msgstr "Podaruj mi trochę słońca"
+
+#: ../inc/options.php:75
+#, php-format
+msgid ""
+"If you like this plugin, please <strong><a href=\"%s\" target=\"_blank\" "
+"title=\"Make me happy :)\">give me reason</a></strong> to make it even "
+"better!"
+msgstr ""
+"Jeśli spodobał Ci się motyw, proszę <strong><a href=\"%s\" target=\"_blank\" "
+"title=\"Uszczęśliw mnie :)\">daj mi powód</a></strong> do uczynienia go "
+"jeszcze lepszym!"
+
+#: ../inc/options.php:85
+msgid "Statistics"
+msgstr "Statystyki"
+
+#: ../inc/options.php:93
+msgid "Don't give up! It's always hope!"
+msgstr "Nie odpuszaj! Zawsze jest nadzieja!"
+
+#: ../inc/options.php:94
+msgid "You should improve something."
+msgstr "Powinieneś coś ulepszyć."
+
+#: ../inc/options.php:95
+msgid "It could be better."
+msgstr "Może być lepiej."
+
+#: ../inc/options.php:96
+msgid "A good start"
+msgstr "Dobry początek"
+
+#: ../inc/options.php:97
+msgid "It's OK :)"
+msgstr "Jest OK :)"
+
+#: ../inc/options.php:98
+msgid "Boom! This is CTR!"
+msgstr "Bum! To jest CTR!"
+
+#: ../inc/options.php:99
+msgid "Whoa! This is really good!"
+msgstr "Wow! To jest na prawdę dobry CTR!"
+
+#: ../inc/options.php:100
+msgid "Tell me what you do!"
+msgstr "Powiedz mi co zrobiłeś!"
+
+#: ../inc/options.php:101
+msgid "Watch out! We have a Badass over here!"
+msgstr "Uwaga! Mamy tutaj kozaka!"
+
+#: ../inc/options.php:106
+#, php-format
+msgid "Views: %d, Clicks: %d"
+msgstr "Wyświetleń: %d, Kliknięć: %d"
+
+#: ../inc/options.php:116
+msgid "Important information"
+msgstr "Ważne informacje"
+
+#: ../inc/options.php:119
+msgid ""
+"If Test mode is disabled a button will not be shown on page. Only if a "
+"visitor load page with shortcode from the Google <acronym title=\"Search "
+"Engine Results Page\">SERP</acronym> <strong>without SSL</strong> button "
+"will be visible. If visitor search for anything while hi is logged to his "
+"Google Account he use SSL. In that case plugin will be working improperly. "
+"Google just doesn't pass query string because of \"security reasons\"."
+msgstr ""
+"Jeśli tryb testowy jest wyłączony, przycisk na stronie nie będzie "
+"wyświetlany za każdym razem. Tylko jeśli gość załaduje stronę poprzez "
+"<acronym title=\"Search Engine Results Page, pol. Strona wyników wyszukiwania"
+"\">SERP</acronym> Google <strong>bez SSL</strong> przycisk będzie "
+"wyświetlany. Jeśli użytkownik szuka czegoś, będąc zalogowany w usłudze "
+"Google - używa on SSL. W tym przypadku wtyczka może nie działać właściwie. "
+"Google nie przekazuje ciągu pytania ze względu na \"bezpieczeństwo\"."
+
+#: ../inc/options.php:127
+msgid "Contact"
+msgstr "Kontakt"
+
+#: ../inc/options.php:131
+#, php-format
+msgid ""
+"If you have any questions about this plugin or you want to <strong>translate "
+"it</strong> you can use this simple <a href=\"%s\" title=\"Contact me"
+"\">contact form</a> to get in touch with me."
+msgstr ""
+"Jeśli masz jakieś pytania odnośnie wtyczki lub chcesz ją przetłumaczyć, "
+"możesz użyć <a href=\"%s\" title=\"Skontaktuj się z autorem\">formularza "
+"kontaktowego</a>."
+
+#: ../inc/styles.php:13
+msgid "Grey"
+msgstr "Szary"
+
+#: ../inc/styles.php:13
+msgid "Green"
+msgstr "Zielony"
+
+#: ../inc/styles.php:13
+msgid "Blue"
+msgstr "Niebieski"
+
+#: ../inc/styles.php:13
+msgid "Red"
+msgstr "Czerwony"
+
+#: ../inc/styles.php:13
+msgid "Orange"
+msgstr "Pomarańczowy"
+
+#: ../inc/styles.php:13
+msgid "White"
+msgstr "Biały"
+
+#: ../inc/styles.php:13
+msgid "Purple"
+msgstr "Fioletowy"
+
+#: ../inc/styles.php:13
+msgid "Pink"
+msgstr "Różowy"
+
+#: ../inc/styles.php:13
+msgid "Custom"
+msgstr "Niestandardowy"
+
+#~ msgid "Default Settings for Shortcode"
+#~ msgstr "Domyślne ustawienia dla shortcode"
+
+#~ msgid "Current look of button"
+#~ msgstr "Obecny wygląd przycisku"
+
+#~ msgid "Save changes to refresh preview"
+#~ msgstr "Zapisz zmiany aby odświeżyć podgląd"
+
+#~ msgid "Rest of avaible color schemes"
+#~ msgstr "Wygląd pozostałych schematów kolorów"
+
+#~ msgid ""
+#~ "Adds search phrase if user comes from Google to button trigered by "
+#~ "shortcode"
+#~ msgstr ""
+#~ "Przechwytuje frazę wyszukiwaną w Google i pozwala na wyświetlenie "
+#~ "przycisku z tą frazą, odnoszącego do dowolnej strony"
+
+#~ msgid "boom"
+#~ msgstr "bum"
